@@ -2,10 +2,10 @@ version: 0.2
 
 env:
   secrets-manager:
-    LOGIN: Mysql:sonartoken
-    HOST: Mysql:host
-    Organization: Mysql:organization
-    Project: Mysql:projectKey
+    LOGIN: or:sonartoken
+    HOST: or:host
+    Organization: or:organization
+    Project: or:projectKey
 
 phases:
   install:
